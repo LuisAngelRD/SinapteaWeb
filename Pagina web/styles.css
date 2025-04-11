@@ -309,8 +309,6 @@ textarea {
     }
 }
 
-/* (Mantén todo el CSS anterior y añade estas reglas al final) */
-
 /* Asegurar que el contenido sea desplazable */
 .info-general {
     max-height: 70vh;
@@ -380,10 +378,9 @@ textarea {
     object-fit: cover;
 }
 
-/* Añade esto al final de tu archivo styles.css */
 .nino1 {
     transform: translateY(10px);
-    transition: transform 0.3s ease; /* Opcional: añade una transición suave */
+    transition: transform 0.3s ease; /*añade una transición suave */
 }
 
 /* Para que no se corte en móviles, añade esto */
@@ -396,7 +393,7 @@ textarea {
 .nino2 {
     transform: translateY(-5px);
     width: 72%;
-    transition: transform 0.3s ease; /* Opcional: añade una transición suave */
+    transition: transform 0.3s ease; /* añade una transición suave */
     margin-top: 20px; /* Ajusta el espacio entre las imágenes */
 }
 
@@ -409,7 +406,7 @@ textarea {
 .nina1 {
     transform: translateY(-15px);
     width: 72%;
-    transition: transform 0.3s ease; /* Opcional: añade una transición suave */
+    transition: transform 0.3s ease; /*  añade una transición suave */
     margin-top: 20px; /* Ajusta el espacio entre las imágenes */
 }
 
