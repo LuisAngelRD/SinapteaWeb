@@ -38,18 +38,26 @@ header {
     border-radius: 50px;
     padding: 5px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
 }
 
 .nav-btn {
-    padding: 12px 30px;
+    padding: 12px 15px;
     border: none;
     background: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: clamp(12px, 2vw, 16px);
     font-weight: 600;
     color: var(--text-color);
     border-radius: 50px;
     transition: all 0.3s ease;
+    white-space: nowrap;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .nav-btn.active {
@@ -179,6 +187,11 @@ h2 {
     margin-bottom: 10px;
 }
 
+.faq-preview {
+    color: var(--dark-color);
+    font-size: 0.9rem;
+}
+
 .add-question-btn {
     position: fixed;
     bottom: 30px;
@@ -219,7 +232,7 @@ h2 {
 }
 
 .app-image img {
-    max-width: 80%;
+    max-width: 100%;
     border-radius: 20px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.469);
 }
@@ -228,17 +241,18 @@ h2 {
     flex: 1;
     min-width: 300px;
 }
+
 .app-info ul {
-    margin-top: 20px; /* Espacio arriba de la lista */
-    margin-bottom: 25px; /* Espacio abajo de la lista */
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 .app-info li {
-    margin-bottom: 10px; /* Espacio entre elementos de lista */
+    margin-bottom: 10px;
 }
 
 .app-info p {
-    margin-bottom: 15px; /* Espacio entre párrafos */
+    margin-bottom: 15px;
 }
 
 .download-btn {
@@ -356,15 +370,6 @@ textarea {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .nav-buttons {
-        width: 100%;
-    }
-    
-    .nav-btn {
-        padding: 10px 15px;
-        font-size: 14px;
-    }
-    
     .info-general, .app-container {
         flex-direction: column;
     }
@@ -402,5 +407,23 @@ textarea {
         font-size: 20px;
         bottom: 20px;
         right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-buttons {
+        border-radius: 25px;
+    }
+    
+    .nav-btn {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 350px) {
+    .nav-btn {
+        font-size: 11px;
+        padding: 8px 5px;
     }
 }
