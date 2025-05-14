@@ -23,6 +23,46 @@ const faqData = {
     6: {
         question: "¿Cómo puedo ayudar a un niño con autismo?",
         answer: "Lo más importante es ser paciente, comprensivo y buscar información de calidad. Algunas formas de ayudar incluyen: aprender sobre sus intereses y formas de comunicación, crear un ambiente estructurado y predecible, usar un lenguaje claro y directo, respetar sus necesidades sensoriales, y celebrar sus logros por pequeños que sean. También es crucial apoyar a las familias y promover la inclusión en todos los ámbitos."
+    },
+    7: {
+        question: "¿El autismo es más común en niños que en niñas?",
+        answer: "Sí, el autismo se diagnostica aproximadamente 4 veces más en niños que en niñas. Sin embargo, investigaciones recientes sugieren que el autismo en niñas puede estar subdiagnosticado, ya que muchas veces presentan características diferentes o aprenden a enmascarar sus dificultades mejor que los niños. Las niñas con autismo pueden tener intereses más 'típicos' y habilidades sociales más desarrolladas, lo que hace que pasen más desapercibidas."
+    },
+    8: {
+        question: "¿Puede una persona con autismo llevar una vida independiente?",
+        answer: "Depende del grado de afectación, pero muchos adultos con autismo logran llevar vidas independientes o semi-independientes con los apoyos adecuados. Algunas personas con autismo de alto funcionamiento pueden vivir por su cuenta, trabajar y formar familias. Otras pueden necesitar apoyo continuo para actividades diarias. La clave está en proporcionar las herramientas y habilidades necesarias desde la infancia y adaptar los apoyos a cada etapa de la vida."
+    },
+    9: {
+        question: "¿Qué causa el autismo?",
+        answer: "No hay una sola causa conocida, pero se cree que es una combinación de factores genéticos y ambientales que afectan el desarrollo cerebral. Los estudios sugieren que ciertos genes pueden aumentar la predisposición, mientras que factores como la edad avanzada de los padres o complicaciones durante el embarazo podrían influir. Es importante destacar que el autismo NO es causado por vacunas, mala crianza o factores emocionales, como erróneamente se creía en el pasado."
+    },
+    10: {
+        question: "¿Cómo afecta el autismo el aprendizaje?",
+        answer: "El autismo puede afectar el procesamiento de información y la forma de aprender. Muchas personas con TEA aprenden mejor con información visual, rutinas estructuradas y enfoques concretos. Pueden tener dificultades con conceptos abstractos, generalización de habilidades o aprendizaje incidental. Sin embargo, con estrategias educativas adecuadas (como TEACCH, ABA u otros enfoques individualizados), pueden alcanzar excelentes resultados académicos y desarrollar todo su potencial."
+    },
+    11: {
+        question: "¿Existen medicamentos para el autismo?",
+        answer: "No hay medicamentos que curen el autismo, pero algunos pueden ayudar a manejar síntomas específicos o condiciones asociadas. Por ejemplo, se pueden usar medicamentos para tratar ansiedad, TDAH, problemas de sueño o comportamientos autoagresivos. Cualquier tratamiento farmacológico debe ser cuidadosamente evaluado y monitoreado por un psiquiatra especializado, y siempre debe combinarse con intervenciones terapéuticas y educativas."
+    },
+    12: {
+        question: "¿El autismo empeora con la edad?",
+        answer: "El autismo es una condición de por vida, pero con apoyo adecuado, muchas personas muestran mejoras significativas en sus habilidades con el tiempo. Algunos desafíos pueden hacerse más evidentes en la adolescencia o adultez debido a mayores demandas sociales, pero esto no significa que el autismo empeore. La clave está en proporcionar apoyos continuos y adaptados a cada etapa del desarrollo. Muchos adultos con autismo desarrollan estrategias efectivas para manejar sus dificultades."
+    },
+    13: {
+        question: "¿Cómo se diagnostica el autismo?",
+        answer: "No hay pruebas médicas, el diagnóstico se basa en observación del comportamiento y desarrollo. Un equipo multidisciplinario (psiquiatras, psicólogos, neurólogos) evalúa habilidades sociales, comunicación y patrones de comportamiento usando herramientas estandarizadas como ADOS o ADI-R. El proceso incluye entrevistas con padres, observación directa y a veces evaluaciones adicionales. Un diagnóstico temprano y preciso es crucial para acceder a intervenciones adecuadas."
+    },
+    14: {
+        question: "¿Puede una persona con autismo tener amigos?",
+        answer: "Sí, aunque pueden tener dificultades con las habilidades sociales, muchas personas con autismo forman amistades significativas. Las amistades pueden verse diferentes - tal vez menos numerosas pero más profundas. Algunos prefieren interactuar uno a uno en lugar de en grupos, o comunicarse de maneras no tradicionales. Con apoyo para entender señales sociales y oportunidades para conocer personas con intereses similares, pueden desarrollar relaciones satisfactorias."
+    },
+    15: {
+        question: "¿Qué es el meltdown en el autismo?",
+        answer: "Es una respuesta intensa a situaciones abrumadoras que puede incluir llanto, gritos, agitación o retraimiento. No es un berrinche, sino una reacción involuntaria ante sobrecarga sensorial, emocional o cognitiva. Ocurre cuando la persona se siente abrumada y no puede regular sus emociones. La mejor estrategia es prevenir identificando desencadenantes, y durante un meltdown, proporcionar un espacio seguro y calmado sin regaños, hasta que la persona se recupere."
+    },
+    16: {
+        question: "¿El autismo es una discapacidad intelectual?",
+        answer: "No necesariamente, aunque algunas personas con autismo pueden tener discapacidad intelectual concurrente. El autismo y la discapacidad intelectual son condiciones distintas que a veces coexisten. Muchas personas con TEA tienen inteligencia promedio o superior, pero pueden tener perfiles cognitivos desiguales (fortalezas y debilidades marcadas). Es importante evaluar cada caso individualmente y no asumir limitaciones basadas solo en el diagnóstico de autismo."
     }
 };
 
