@@ -1,6 +1,6 @@
 # SinapteaWeb
 Página web de la aplicación SINAPTEA desarrollada en HTML, JavaScript y CSS.
-LINK DE LA PÁGINA: https://sinaptea.netlify.app/
+LINK DE LA PÁGINA: https://luisangelrd.github.io/SinapteaWeb/
 
 ![Image Alt](https://github.com/LuisAngelRD/SinapteaWeb/blob/96ab2b8cb99a7ca5380e9d5a964e0486ebdf39f9/Pagina%20web/sinaptea%20web.png)
 
